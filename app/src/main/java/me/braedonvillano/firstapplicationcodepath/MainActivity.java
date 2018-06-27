@@ -52,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 items.remove(position);
                 // notify the adapter that the underlying dataset changed
                 itemsAdapter.notifyDataSetChanged();
+                // store the updated list
+                writeItems();
                 // return true to tell the framework that the long click was consumed
                 return true;
             }
