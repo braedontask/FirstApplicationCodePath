@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
         lvItems.setAdapter(itemsAdapter);
 
         // add some mock items to the list
-        //items.add("First todo item");
-        //items.add("Second todo item");
+        // items.add("First todo item");
+        // items.add("Second todo item");
 
         // setup the listener on creation
         setupListViewListener();
